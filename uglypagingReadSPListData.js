@@ -57,7 +57,7 @@ $(function () {
         async: false,
         success: function (data) {
             // console.log(data);
-            initPager({ selector: "#pager", allItems: data.d.ItemCount, itemsPerPage: 2, listName: listName, contSelector: '.cont-empleados' });
+            initPager({ selector: "#pager", allItems: data.d.ItemCount, itemsPerPage: 2, listName: listName, contSelector: '.cont' });
 
         }
     });
